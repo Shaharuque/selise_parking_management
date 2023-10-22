@@ -6,6 +6,7 @@ type TableProps = {
 
 export const Table = ({ vehicleList }: TableProps) => {
 	console.log('vehicle list', vehicleList);
+	console.log("test")
 	return (
 		<div className="mt-4 text-center">
 			<table className="border-collapse mx-auto">
